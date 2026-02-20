@@ -1,0 +1,49 @@
+/* DeadlyCuriosity theme (Dark / Smoky + Amber embers) */
+.project-deadlycuriosity{
+  /* Header */
+  --header-title:#FFE9D6;
+  --nav:#F2C7A8;
+  --nav-hover:#FFB36B;
+
+  --header-bg: rgba(10, 7, 6, 0.74);
+  --border: rgba(255, 179, 107, 0.18);
+
+  /* Body text */
+  --text:#EAD9CF;
+  --secondary:#C9B2A4;
+  --muted:#9C8276;
+
+  /* Cards */
+  --card-title:#FFF1E6;
+  --card-desc:#D7C2B6;
+  --card-meta:#B29382;
+
+  /* Accents */
+  --accent:#FFB36B;
+  --accent-text:#140C08;
+  --outline: rgba(255, 179, 107, 0.35);
+
+  /* Micro accent */
+  --danger:#E83B3B;
+}
+
+/* Page-specific background image (put your file here) */
+.project-deadlycuriosity.has-bg::before{
+  background-image: url("../../assets/img/deadlycuriosity-bg.png");
+  opacity: .55;
+  filter: saturate(1.02) contrast(1.03);
+}
+
+/* Smoky overlay + amber embers tint */
+.project-deadlycuriosity.has-bg::after{
+  background:
+    radial-gradient(1200px 760px at 14% 0%, rgba(255,179,107,.16), transparent 55%),
+    radial-gradient(920px 640px at 88% 18%, rgba(232,59,59,.08), transparent 52%),
+    linear-gradient(180deg, rgba(10,7,6,.86) 0%, rgba(10,7,6,.74) 55%, rgba(10,7,6,.90) 100%);
+}
+
+/* Optional: stronger hover glow on links/buttons for this page */
+.project-deadlycuriosity .links a:hover,
+.project-deadlycuriosity .inline-link:hover{
+  filter: brightness(1.08);
+}
