@@ -1,0 +1,299 @@
+{
+  "projects": [
+    {
+      "slug": "lostpulse",
+      "name": "LostPulse",
+      "subtitle": "2D Roguelite",
+      "tag": "2D • Roguelite",
+      "status": "Released on Itch.io",
+      "team": false,
+      "role": "Game Designer • Systems / Technical Design (UE5 C++)",
+      "overview": "LostPulse is a 2D roguelite built around progression depth: upgrades, build choices, and relic synergy. You play as an adventurer entering a devastated world to explore it — and ultimately save its people.",
+      "responsibilities": [
+        "Designed the progression layer: upgrades, shop decisions, and build direction.",
+        "Designed skill trees (active + passive) with readable choices.",
+        "Designed relic categories (offensive/defensive) and synergy rules.",
+        "Focused on scalable systems and future-proof tuning."
+      ],
+      "tools": [
+        "Unreal Engine 5",
+        "C++"
+      ],
+      "challenges": [
+        "Keeping combat readable at high tempo while preserving player agency.",
+        "Balancing responsiveness with fair enemy hit windows."
+      ],
+      "solutions": [
+        "Attack phases (startup/active/recovery) with debug visualization for fast iteration.",
+        "Consistent timing rules + data-driven tuning fields per attack type."
+      ],
+      "results": [
+        "Stable baseline prototype with extensible components to scale into more enemies, weapons, and relics."
+      ],
+      "timeline": [
+        {
+          "label": "Prototype baseline",
+          "detail": "Movement + Combat + Health components"
+        },
+        {
+          "label": "Next",
+          "detail": "Advanced combat, enemy behaviors, and build/loot tuning"
+        }
+      ],
+      "links": [
+        {
+          "label": "Itch.io",
+          "url": "https://gedoo57.itch.io/lostpulse"
+        }
+      ],
+      "gallery": {
+        "folder": "assets/projects/lostpulse/",
+        "images": [
+          {
+            "src": "assets/projects/lostpulse/01.png",
+            "alt": "LostPulse screenshot 1"
+          },
+          {
+            "src": "assets/projects/lostpulse/02.png",
+            "alt": "LostPulse screenshot 2"
+          },
+          {
+            "src": "assets/projects/lostpulse/03.png",
+            "alt": "LostPulse screenshot 3"
+          },
+          {
+            "src": "assets/projects/lostpulse/04.png",
+            "alt": "LostPulse screenshot 4"
+          }
+        ]
+      },
+      "cardDescription": "2D roguelite with shop, upgrades, active/passive skill tree, and offensive/defensive relics — set in a ruined world you explore and try to save."
+    },
+    {
+      "slug": "thinktwice",
+      "name": "Think Twice",
+      "subtitle": "2D Trap / Puzzle Escape",
+      "tag": "2D • Puzzle/Traps",
+      "status": "Released on Itch.io",
+      "team": false,
+      "role": "Game Designer",
+      "overview": "You play as a soul trapped inside a cursed mansion. Your goal is to escape and return to life — but the mansion is full of deadly traps that punish mistakes.",
+      "responsibilities": [
+        "Designed trap pacing and readability: surprise, then learnable mastery.",
+        "Built a fail → learn → improve loop with clear feedback.",
+        "Tuned difficulty ramp and checkpoint/learning flow."
+      ],
+      "tools": [
+        "Game Design",
+        "Level Design"
+      ],
+      "challenges": [
+        "Ensuring players understand cause→effect without over-explaining.",
+        "Preventing early churn in the first minutes."
+      ],
+      "solutions": [
+        "Strong signposting + consistent UI feedback.",
+        "Early puzzles tuned for confidence, then controlled complexity ramp."
+      ],
+      "results": [
+        "A concise loop that supports expansion into multiple puzzle sets."
+      ],
+      "timeline": [
+        {
+          "label": "Prototype loop",
+          "detail": "Core interactions + first content slice"
+        },
+        {
+          "label": "Next",
+          "detail": "More levels, difficulty curves, and polish"
+        }
+      ],
+      "links": [
+        {
+          "label": "Itch.io",
+          "url": "https://gedoo57.itch.io/think-twice"
+        }
+      ],
+      "gallery": {
+        "folder": "assets/projects/thinktwice/",
+        "images": [
+          {
+            "src": "assets/projects/thinktwice/01.png",
+            "alt": "Think Twice screenshot 1"
+          },
+          {
+            "src": "assets/projects/thinktwice/02.png",
+            "alt": "Think Twice screenshot 2"
+          },
+          {
+            "src": "assets/projects/thinktwice/03.png",
+            "alt": "Think Twice screenshot 3"
+          },
+          {
+            "src": "assets/projects/thinktwice/04.png",
+            "alt": "Think Twice screenshot 4"
+          },
+          {
+            "src": "assets/projects/thinktwice/05.png",
+            "alt": "Think Twice screenshot 5"
+          }
+        ]
+      },
+      "cardDescription": "2D trap/puzzle escape. You’re a soul trapped in a cursed mansion — learn from failures and survive sudden traps to escape."
+    },
+    {
+      "slug": "deadlycuriosity",
+      "name": "DeadlyCuriosity",
+      "subtitle": "3D Mystery / Escape Room",
+      "tag": "3D • Escape Room",
+      "status": "In development",
+      "team": false,
+      "role": "Game Designer • Systems / Technical (UE5 C++)",
+      "overview": "DeadlyCuriosity is a 3D puzzle mystery where you play as a journalist kidnapped into a house. Your mission is simple: escape — or you remain trapped until you die.",
+      "responsibilities": [
+        "Designed escape-room puzzle structure: observation → inference → execution.",
+        "Kept objectives clear without spoiling solutions.",
+        "Focused on tension, environment-driven clues, and pacing."
+      ],
+      "tools": [
+        "Unreal Engine 5",
+        "C++"
+      ],
+      "challenges": [
+        "Keeping guidance helpful without spoiling puzzle discovery.",
+        "Maintaining visual readability in dark scenes."
+      ],
+      "solutions": [
+        "Room-scoped objectives + progressive disclosure of hints.",
+        "UI contrast + tuned lighting rules per environment."
+      ],
+      "results": [
+        "A guidance system that scales with content and keeps players oriented."
+      ],
+      "timeline": [
+        {
+          "label": "9-day sprint",
+          "detail": "Core systems + first playable slice"
+        },
+        {
+          "label": "Next",
+          "detail": "More rooms, puzzles, and polish pass"
+        }
+      ],
+      "links": [
+        {
+          "label": "Itch.io Profile",
+          "url": "https://gedoo57.itch.io/"
+        },
+        {
+          "label": "LinkedIn",
+          "url": "https://www.linkedin.com/in/ahmed-mostafa-gedo/"
+        }
+      ],
+      "gallery": {
+        "folder": "assets/projects/deadlycuriosity/",
+        "images": [
+          {
+            "src": "assets/projects/deadlycuriosity/01.png",
+            "alt": "DeadlyCuriosity screenshot 1"
+          },
+          {
+            "src": "assets/projects/deadlycuriosity/02.png",
+            "alt": "DeadlyCuriosity screenshot 2"
+          },
+          {
+            "src": "assets/projects/deadlycuriosity/03.png",
+            "alt": "DeadlyCuriosity screenshot 3"
+          },
+          {
+            "src": "assets/projects/deadlycuriosity/04.png",
+            "alt": "DeadlyCuriosity screenshot 4"
+          },
+          {
+            "src": "assets/projects/deadlycuriosity/05.png",
+            "alt": "DeadlyCuriosity screenshot 5"
+          },
+          {
+            "src": "assets/projects/deadlycuriosity/06.png",
+            "alt": "DeadlyCuriosity screenshot 6"
+          }
+        ]
+      },
+      "cardDescription": "3D mystery / escape-room. You’re a journalist kidnapped into a house — solve puzzles and escape before it’s too late."
+    },
+    {
+      "slug": "impulserouge",
+      "name": "Impulse Rogue",
+      "subtitle": "UE5 • 3D Souls-like",
+      "tag": "UE5 • 3D Souls-like",
+      "status": "In development • Steam demo live",
+      "team": true,
+      "role": "Game Designer • Level Designer • Systems Designer",
+      "overview": "Impulse Rogue is a 3D souls-like currently in active development. The focus is on challenging combat, readable builds, and meaningful equipment choices.",
+      "responsibilities": [
+        "Built the core stats & attributes system (foundations, dependencies, and formulas).",
+        "Designed scaling curves and balance tuning across progression.",
+        "Owned numbers design: parameters, modifiers, and overall combat math.",
+        "Level design / greyboxing: layout planning, interactive placements, and encounter pacing.",
+        "Planned enemy distribution and weapon ownership: where enemies appear, which weapon types they use, and why."
+      ],
+      "tools": [
+        "Unreal Engine 5",
+        "C++"
+      ],
+      "challenges": [
+        "Aligning multiple disciplines on scope and priorities.",
+        "Maintaining clarity during rapid iteration."
+      ],
+      "solutions": [
+        "Clear feature definitions + acceptance criteria per sprint.",
+        "Consistent feedback language + tuning checkpoints."
+      ],
+      "results": [
+        "A cohesive production pipeline and a playable vertical slice trajectory."
+      ],
+      "timeline": [
+        {
+          "label": "Pre-production",
+          "detail": "Loop definition + prototype validation"
+        },
+        {
+          "label": "Production",
+          "detail": "Content expansion + polish"
+        }
+      ],
+      "links": [
+        {
+          "label": "Steam (Demo)",
+          "url": "https://store.steampowered.com/app/1910800/Impulse_Rogue/"
+        }
+      ],
+      "gallery": {
+        "folder": "assets/projects/impulserouge/",
+        "images": [
+          {
+            "src": "assets/projects/impulserouge/01.png",
+            "alt": "Impulse Rouge screenshot 1"
+          },
+          {
+            "src": "assets/projects/impulserouge/02.jpg",
+            "alt": "Impulse Rouge screenshot 2"
+          },
+          {
+            "src": "assets/projects/impulserouge/03.jpg",
+            "alt": "Impulse Rouge screenshot 3"
+          },
+          {
+            "src": "assets/projects/impulserouge/04.jpg",
+            "alt": "Impulse Rouge screenshot 4"
+          },
+          {
+            "src": "assets/projects/impulserouge/05.jpg",
+            "alt": "Impulse Rouge screenshot 5"
+          }
+        ]
+      },
+      "cardDescription": "3D souls-like in development. I own level greyboxing/layout plus the full stats/attributes framework, scaling curves, and enemy/weapon distribution."
+    }
+  ]
+}
