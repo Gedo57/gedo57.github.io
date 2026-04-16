@@ -1,0 +1,53 @@
+.project-thinktwice{
+  /* === Think Twice (Cold / Cyan) palette overrides === */
+
+  /* Header */
+  --header-title:#EAF2FF;
+  --nav:#A9C7FF;
+  --nav-hover:#4DEBFF;
+  --header-bg: rgba(6, 7, 18, 0.72);
+  --border: rgba(77, 235, 255, 0.18);
+
+  /* Body text */
+  --text:#D7E3FF;
+  --secondary:#AAB7E6;
+  --muted:#7F8BC2;
+
+  /* Cards */
+  --card-title:#F1F6FF;
+  --card-desc:#B8C6F0;
+  --card-meta:#8692C8;
+
+  /* Accents */
+  --accent:#4DEBFF;
+  --outline: rgba(77,235,255,0.35);
+  --accent-text:#050A12;
+
+  /* Optional micro accent */
+  --thinktwice-pink:#FF4FD8;
+}
+
+/* Page-specific background image (put your file here):
+   portfolio/assets/img/thinktwice-bg.png
+*/
+.project-thinktwice.has-bg::before{
+  background-image: url("../../assets/img/thinktwice-bg.png");
+  opacity: .55;
+  filter: saturate(1.05) contrast(1.03);
+}
+
+/* Overlay tuned for cold/cyan readability */
+.project-thinktwice.has-bg::after{
+  background:
+    radial-gradient(1200px 700px at 18% 0%, rgba(77,235,255,.20), transparent 58%),
+    radial-gradient(900px 600px at 88% 18%, rgba(42,168,255,.12), transparent 52%),
+    radial-gradient(700px 500px at 92% 86%, rgba(255,79,216,.06), transparent 55%),
+    linear-gradient(180deg, rgba(6,7,18,.84) 0%, rgba(6,7,18,.72) 55%, rgba(6,7,18,.88) 100%);
+}
+
+/* Stronger hover for primary links/buttons */
+.project-thinktwice .btn.primary:hover,
+.project-thinktwice .links a:hover,
+.project-thinktwice .inline-link:hover{
+  filter: brightness(1.10);
+}
